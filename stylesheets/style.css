@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    
+}
+body{
+    color: #000;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+
+
+
+/* Navigation bar starts from here  */
+#navigation-bar{
+    background-color: darkblue;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#navigation-bar a{
+    text-transform: uppercase;
+    margin-left: 32px;
+    font-size: 20px;
+
+}
+#navigation-bar a:hover{
+    color:#25A50B ;
+}
+#navigation-bar .activelink{
+    color: #25A50B;
+   
+}
+/* Navigation bar ends here  */
+
+
+/* main styling starts from here  */
+.wrapper h1,h2{
+    text-align: center;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.wrapper h2{
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+
+ /* square Box starts form here  */
+ .squarebox{
+     width: 240px;
+     height: 220px;
+     background-color: #99d8ca;
+     margin: 0 auto;
+     border: 20px solid #5873e2;
+     outline: 10px solid #0d1430;
+     box-shadow: 0 0 0 30px #90ffa9;
+     border-radius: 5px;
+     margin-bottom: 50px;
+ }
+ /* squarebox ends here  */
+
+
+ /* radiobox starts from here  */
+ .radiobox-wrapper{
+     
+     text-align: center;
+ }
+ .radiobox{
+     display: inline-block;
+ }
+ 
+ .circle{
+      width: 20px;
+      height: 20px;
+      background-color: #99d8ca;
+      border: 2px solid black;
+      display: inline-block;
+      border-radius: 50%;
+      vertical-align: middle;
+      margin-right: 12px;
+ }
+
+  #content{
+     background-color: #99d8ca;
+ }
+ .border{
+     background-color: #5873e2;
+ }
+ #outline{
+  background-color: black;
+ }
+ #shadow{
+     background-color: #667e6c;
+ }
+
+ .hexcode{
+     margin-right: 10px;
+ }
+
+ hr{
+    margin: 32px auto;
+     border: 1px  dashed #999;
+     width: 500px;
+ }
+  /* radiobox ends here  */
+
+  /* empty boxes secion starts from here  */
+
+  #emptyboxes{
+     padding-bottom:50px ;      
+  }
+.exercise2 h2{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 50px;
+
+}
+
+.emptybox-container{
+    width: 641px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid rgb(60,66,92);
+    padding: 5px;
+}
+.emptybox-container .emptybox{
+   width: 200px;
+   height: 180px;
+   display: inline-block;
+   background-color: rgb(218,224,250);
+   
+  
+}
+.seconddiv {
+    margin-left: 10px;
+}
+.thirddiv {
+    margin-left: 10px;
+}
+
+.bordered-emptybox{
+    margin-top:40px;
+}
+.bordered .emptybox{
+ border: 1px  solid black;   
+}
+  /* empty boxes  section ends here  */
+/* main styling end  here  */
+
+/* ************************************  Blog page styling starts from here ***************************  */
+/* main page styling starts from  here  */
+.blogpage{
+    max-width:1200px;
+    margin: 60px auto;
+  
+}
+
+.article-container{
+    width: 100%;
+    height: 387px;
+    display: inline-block;
+}
+
+.article-image{
+    display: inline-block;
+    width: 584px;
+ 
+}
+.article-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* *********** styling the article contnet **************  */
+
+.article-content{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30px;
+    width: 600px;
+
+}
+
+
+  /* styling the article  heading  */
+.article-content h1{
+    font-size: 36px;
+    color: #061345;
+    font-weight: 700;
+    margin-bottom: 10px;
+  
+}
+ 
+/* styling  the  article  desciption  */
+.article-content .article-description{
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+    margin-bottom: 35px;
+}
+
+/* styling the  article link  meanwhile button */
+.article-content .articlelink{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #19BB3D;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+
+/* ***** another section styling start from here ***** */
+.moreblogs {
+    margin-bottom: 70px;
+}
+.article-wrapper{
+    display: inline-block;
+}
+.multiplecontent{
+    display: block;
+    padding: 0px;
+    width: 550px;
+    /* background-color: rebeccapurple; */
+}
+
+.article-wrapper{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.multiplearticles {
+    max-width: 585px;
+    display: inline-block;
+}
+.secondarticle{
+    vertical-align: top;
+    padding-left: 28px;
+}
+
+.secondarticleimg{
+   vertical-align: top;
+}
+.multiplearticles-heading{
+    margin-top: 10px;
+   
+}
+.multiplearticleslink{
+   
+    font-size: 20px;
+    color: #19BB3D;
+    display: inline-block;
+    margin-bottom: 100px;
+    text-decoration:underline;
+   
+}
