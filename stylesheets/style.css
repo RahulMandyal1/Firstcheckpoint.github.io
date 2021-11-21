@@ -1,20 +1,41 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    vertical-align: middle;
-    
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
 body{
     color: #000;
 }
+
 a{
     text-decoration: none;
     display: inline-block;
     color: #fff;
 }
 
-
+/* custom css starts from here  */
 
 /* Navigation bar starts from here  */
 #navigation-bar{
@@ -52,7 +73,8 @@ a{
 }
 
 .wrapper h2{
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 500;
     margin-bottom: 50px;
 }
 
@@ -122,8 +144,9 @@ a{
      padding-bottom:50px ;      
   }
 .exercise2 h2{
+    font-size: 25px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 50px;
 
 }
@@ -136,7 +159,7 @@ a{
     padding: 5px;
 }
 .emptybox-container .emptybox{
-   width: 200px;
+   width: 204px;
    height: 180px;
    display: inline-block;
    background-color: rgb(218,224,250);
@@ -153,9 +176,17 @@ a{
 .bordered-emptybox{
     margin-top:40px;
 }
-.bordered .emptybox{
- border: 1px  solid black;   
+
+
+.boderedemptyboxes{
+    width: 202px;
+    height: 180px;
+    display: inline-block;
+    background-color: rgb(218,224,250)
 }
+.bordered .boderedemptyboxes{
+    border: 1px  solid black;   
+   }
   /* empty boxes  section ends here  */
 /* main styling end  here  */
 
@@ -189,7 +220,7 @@ a{
 .article-content{
     display: inline-block;
     vertical-align: top;
-    padding-left: 30px;
+    padding-left: 12px;
     width: 600px;
 
 }
