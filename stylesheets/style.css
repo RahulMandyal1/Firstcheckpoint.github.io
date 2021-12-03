@@ -44,16 +44,16 @@ a{
     padding: 20px;
     margin-bottom: 30px;
 }
-#navigation-bar a{
+#navigation-bar  nav a{
     text-transform: uppercase;
     margin-left: 32px;
     font-size: 20px;
 
 }
-#navigation-bar a:hover{
+#navigation-bar nav  a:hover{
     color:#25A50B ;
 }
-#navigation-bar .activelink{
+#navigation-bar nav  .activelink{
     color: #25A50B;
    
 }
@@ -152,40 +152,25 @@ a{
 }
 
 .emptybox-container{
-    width: 641px;
-    height: auto;
-    margin: 0 auto;
-    border: 1px solid rgb(60,66,92);
-    padding: 5px;
+    width: 660px;
+    border: 2px solid gray;
+    margin: 24px auto;
+    font-size: 0;
 }
 .emptybox-container .emptybox{
-   width: 204px;
+   width: 200px;
    height: 180px;
    display: inline-block;
    background-color: rgb(218,224,250);
+   margin: 10px;
+   box-sizing: border-box;
    
   
 }
-.seconddiv {
-    margin-left: 10px;
-}
-.thirddiv {
-    margin-left: 10px;
-}
 
-.bordered-emptybox{
-    margin-top:40px;
-}
-
-
-.boderedemptyboxes{
-    width: 202px;
-    height: 180px;
-    display: inline-block;
-    background-color: rgb(218,224,250)
-}
 .bordered .boderedemptyboxes{
-    border: 1px  solid black;   
+    border: 2px  solid black;   
+    margin: 10px;
    }
   /* empty boxes  section ends here  */
 /* main styling end  here  */
